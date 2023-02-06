@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import BaseIcon from "./BaseIcon.vue";
+import BaseIcon from "@/components/BaseIcon.vue";
 
 const emit = defineEmits(["deleteAll", "deleteAllDone"]);
 </script>

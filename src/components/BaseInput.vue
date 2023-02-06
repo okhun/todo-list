@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import BaseIcon from "./BaseIcon.vue";
+import BaseIcon from "@/components/BaseIcon.vue";
 
 const props = defineProps<{ modelValue: string; add?: boolean }>();
 const emit = defineEmits(["update:modelValue", "addClick"]);

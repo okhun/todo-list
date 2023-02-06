@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import BaseInput from "./BaseInput.vue";
-import Header from "./Header.vue";
-import BaseModal from "./BaseModal.vue";
-import Item from "./Item.vue";
-import { useTodoList } from "./../composable/useTodoList";
+import BaseInput from "@/components/BaseInput.vue";
+import Header from "@/components/Header.vue";
+import BaseModal from "@/components/BaseModal.vue";
+import Item from "@/components/Item.vue";
+import { useTodoList } from "@/composable/useTodoList";
 
 const {
   termValue,
